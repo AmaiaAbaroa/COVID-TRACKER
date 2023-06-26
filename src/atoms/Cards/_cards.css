@@ -1,0 +1,41 @@
+.card_resum {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:80%;
+    background-color: rgb(179, 176, 176);
+    border-radius: 5px;
+}
+
+.card_resum_red {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:80%;
+    background-color: rgb(224, 152, 152);
+    border-radius: 5px;
+}
+
+h4 {
+    color:darkblue;
+}
+
+.card_resum_chip {
+    font-size: small;
+    color: gray;
+    background-color: white;
+    padding: 0.5rem;
+    height: 0.5rem;
+    border-radius: 2px;
+
+}
+
+.card_resum_number {
+    font-size:large;
+    color: black;
+}
+
+.card_resum_number_red {
+    font-size:large;
+    color: red;
+}
