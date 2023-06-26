@@ -1,4 +1,3 @@
-
 import UseFetch from "../services/UseFetch"
 import Cards from "../atoms/Cards/Cards"
 
@@ -24,7 +23,7 @@ function Landingpage(){
             {/* <ul>
                 {data?.map((element)=>
                 <li key={element.name}>{element.country}</li>)}
-            </ul>
+            </ul> */}
            
         </>
     )
