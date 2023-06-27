@@ -1,6 +1,7 @@
 
 import UseFetch from "../services/UseFetch"
 import Cards from "../atoms/Cards/Cards"
+import DataGlobal from "../molecules/DataGlobal";
 
 
 function Landingpage(){
@@ -10,6 +11,9 @@ function Landingpage(){
     return(
         <> 
             <h1>HOLA HOLITA</h1>
+            <div>
+                <DataGlobal></DataGlobal>
+            </div>
             {data?.map((element)=> 
 
             <Cards 
