@@ -5,7 +5,6 @@
     width:80%;
     background-color: rgb(179, 176, 176);
     border-radius: 5px;
-    color:rgb(2, 2, 37)
 }
 
 .card_resum_red {
@@ -14,14 +13,6 @@
     justify-content: space-around;
     width:80%;
     background-color: rgb(224, 152, 152);
-    border-radius: 5px;
-}
-.card_resum_lightblue {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width:80%;
-    background-color: rgb(227, 242, 249);
     border-radius: 5px;
 }
 
@@ -36,8 +27,7 @@ h4 {
     padding: 0.5rem;
     height: 0.5rem;
     border-radius: 2px;
-    align-self: center;
-   
+
 }
 
 .card_resum_number {
@@ -46,8 +36,6 @@ h4 {
 }
 
 .card_resum_number_red {
-    font-size: x-large;
-    font-weight: bolder;
+    font-size:large;
     color: red;
-    align-self: center;
 }
