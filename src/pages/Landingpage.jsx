@@ -14,16 +14,25 @@ function Landingpage(){
             <Cards 
             key={element.cases} 
             card_resum_title={element.country} 
-            card_resum_style={"card_resum_red"} 
+            card_resum_style={"card_resum_lightblue"} 
             card_resum_chip_value={element.todayCases}
             card_resum_number_style={"card_resum_number_red"}
             card_resum_number_value={element.cases}> 
             </Cards>
-)}
-            {/* <ul>
-                {data?.map((element)=>
-                <li key={element.name}>{element.country}</li>)}
-            </ul> */}
+            )
+        }    
+            {data?.map((element)=> 
+            <Cards 
+            key={element.cases} 
+            card_resum_title={element.country} 
+            card_resum_style={"card_resum_lightblue"} 
+            card_resum_chip_value={element.todayCases}
+            card_resum_number_style={"card_resum_number_red"}
+            card_resum_number_value={element.cases}> 
+            </Cards>
+    )
+}
+          
            
         </>
     )
