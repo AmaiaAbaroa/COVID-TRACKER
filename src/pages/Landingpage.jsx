@@ -1,4 +1,4 @@
-import TopTen from "../atoms/molecules/TopTen";
+import TopTen from "../molecules/TopTen"
 
 
 function Landingpage(){
