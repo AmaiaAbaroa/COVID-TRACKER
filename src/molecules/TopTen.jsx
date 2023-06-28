@@ -18,9 +18,8 @@ function TopTen(){
      
             <Cards 
             key={element.cases} 
-            img_flags_value={element.country.country}
+            img_flags_value={element.countryInfo.flag}
             img_country_style={"img_country"}
-            card_resum_title={null} 
             card_resum_style={"div_pais"} 
             card_resum_chip_style={"card_resum_chip"}
             card_resum_chip_value={element.country}

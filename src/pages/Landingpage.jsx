@@ -1,4 +1,5 @@
 import TopTen from "../molecules/TopTen"
+import TopGlobal from "../molecules/TopGlobal"
 
 
 function Landingpage(){
@@ -6,6 +7,7 @@ function Landingpage(){
     return(
         <> 
             <TopTen></TopTen>
+            <TopGlobal></TopGlobal>
               
         </>
     )
