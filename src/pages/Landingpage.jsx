@@ -1,4 +1,3 @@
-
 import UseFetch from "../services/UseFetch"
 import Cards from "../atoms/Cards/Cards"
 
@@ -6,11 +5,14 @@ import Cards from "../atoms/Cards/Cards"
 function Landingpage(){
     const url = 'https://disease.sh/v3/covid-19/';
     const {data} = UseFetch(url + 'countries');
-       
+
+    const sortedData = data?.sort((a, b) => b.cases - a.cases);
+    const topTenCountries = sortedData?.slice(0, 10);
+    
     return(
         <> 
             <h1>HOLA HOLITA</h1>
-            {data?.map((element)=> 
+            {topTenCountries?.map((element)=> 
 
             <Cards 
             key={element.cases} 
@@ -22,8 +24,6 @@ function Landingpage(){
             </Cards>
             )
         }    
-          
-           
         </>
     )
 }
