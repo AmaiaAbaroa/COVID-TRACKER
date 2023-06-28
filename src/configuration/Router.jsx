@@ -4,7 +4,7 @@ import Tracker2 from "../pages/tracker2/Tracker2";
 
 
 const RouterItem = () => {
-  console.log("Router");
+  //console.log("Router");
     return(
         <BrowserRouter>
           <Routes>
