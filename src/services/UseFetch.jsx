@@ -12,7 +12,7 @@ const UseFetch = (url) =>{
         getData(url);
     }, [url]);
 
-    return({data});
+    return{data};
 }
 
 export default UseFetch;
