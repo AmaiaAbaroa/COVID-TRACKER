@@ -1,5 +1,5 @@
-import UseFetch from "../../services/UseFetch";
-import Cards from "../Cards/Cards";
+import UseFetch from "../services/UseFetch";
+import Cards from "../atoms/Cards/Cards";
 import "./_topTen.css"
 
 
