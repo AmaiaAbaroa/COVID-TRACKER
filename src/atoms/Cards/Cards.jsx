@@ -3,7 +3,7 @@ import './_cards.css'
  
 
 const Cards = (props) => {
-    const { card_resum_style, card_resum_title, card_resum_chip_value, card_resum_number_value } = props;
+    //const { card_resum_style, card_resum_title, card_resum_chip_value, card_resum_number_value } = props;
   return (
     <>
   

@@ -7,9 +7,8 @@ const RouterItem = () => {
     return(
         <BrowserRouter>
           <Routes>
-            <Route path="/" element= {<Landingpage/>}>
+            <Route path="/" element= {<Landingpage/>}></Route>
             <Route path="/tracker2" element= {<Tracker2/>}></Route>
-            </Route>
 
           </Routes>
         </BrowserRouter>
