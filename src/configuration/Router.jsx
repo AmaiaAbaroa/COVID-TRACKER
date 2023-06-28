@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route, Router} from "react-router-dom";
+import {BrowserRouter, Routes, Route,} from "react-router-dom";
 import Landingpage from "../pages/Landingpage";
 import Tracker2 from "../pages/tracker2/Tracker2";
 
