@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon:hover {
+    background-color: #212875;
+    stroke: white;
+
+}
