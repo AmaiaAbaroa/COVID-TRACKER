@@ -3,9 +3,19 @@ header {
     flex-direction: column;
 }
 
+.logo_navbar{
+    width: 40px;
+    height: 40px;
+   
+}
+
 nav {
     display: flex;
     flex-direction: column;
+}
+
+a{
+    padding: 10px;
 }
 
 .icon:hover {
