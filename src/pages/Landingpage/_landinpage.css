@@ -1,0 +1,10 @@
+.body_style_flex{
+    display: flex;
+    flex-direction: row;
+
+}
+
+main{
+    display: flex;
+    margin-left: 10%;
+}
