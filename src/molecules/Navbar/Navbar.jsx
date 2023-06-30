@@ -1,5 +1,5 @@
 import "./_navbar.css";
-import logo from "../assets/img/coronavirus.png";
+import logo from "../../assets/img/coronavirus.png";
 
 
 
