@@ -4,6 +4,7 @@ import "./_landinpage.css"
 import Table from "../../atoms/tables/Table";
 
 function Landingpage() {
+  const imgFlag = "countryInfo.flag";
   return (
     <>
       <div className="body_style_flex">
@@ -12,7 +13,11 @@ function Landingpage() {
 
         <main>
           <GlobalTopTenColumn></GlobalTopTenColumn>
-          <Table></Table>
+          <Table 
+            title_column_1_table = {"Flags"}
+            img_flag={imgFlag}
+          >
+          </Table>
         </main>
 
       </div>
