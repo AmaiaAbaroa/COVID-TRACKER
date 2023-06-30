@@ -1,5 +1,5 @@
 import {BrowserRouter, Routes, Route,} from "react-router-dom";
-import Landingpage from "../pages/Landingpage";
+import Landingpage from "../pages/Landingpage/Landingpage";
 import Tracker2 from "../pages/tracker2/Tracker2";
 
 
