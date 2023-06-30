@@ -1,0 +1,8 @@
+.container_drop_down{
+    margin: 2%;
+    padding: 1%;
+    font-weight: bold;
+    border-color: #fff;
+    box-shadow: 0 0 5px rgba(208, 78, 78, 0.2);
+    border-radius: 5px;
+}
