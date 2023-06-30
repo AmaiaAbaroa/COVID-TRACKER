@@ -8,46 +8,14 @@
     color:rgb(2, 2, 37)
 }
 
-.card_resum_red {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width:80%;
-    background-color: rgb(224, 152, 152);
-    border-radius: 5px;
-}
-.card_resum_lightblue {
-    display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width:80%;
-    background-color: rgb(227, 242, 249);
-    border-radius: 5px;
-}
-
-h4 {
-    color:darkblue;
-}
-
 .card_resum_chip {
     font-size: small;
     color: gray;
     background-color: white;
-    padding: 0.5rem;
-    height: 0.5rem;
+    padding: 2%;
+    height: 30%;
+    width: auto;
     border-radius: 2px;
     align-self: center;
-   
 }
 
-.card_resum_number {
-    font-size:large;
-    color: black;
-}
-
-.card_resum_number_red {
-    font-size: x-large;
-    font-weight: bolder;
-    color: red;
-    align-self: center;
-}
