@@ -7,6 +7,7 @@ const Dropdown = () => {
 
     const url = "https://disease.sh/v3/covid-19/";
     const { data } = UseFetch(url + "countries");
+    
   
     if (data === null) {
       return <> Loading </>;
