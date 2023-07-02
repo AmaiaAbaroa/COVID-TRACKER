@@ -1,4 +1,6 @@
-import DataTable from "react-data-table-component-with-filter";
+import DataTable, { createTheme } from "react-data-table-component-with-filter";
+import 'styled-components'
+import './_tableAtom.css'
 
 const TableAtom = (props) => {
   return (
@@ -6,8 +8,6 @@ const TableAtom = (props) => {
       data={props.data}
       columns={props.columns}
       pagination
-      highlightOnHover
-      responsive
     />
   );
 };

@@ -14,11 +14,7 @@ function Landingpage() {
 
         <main>
           <GlobalTopTenColumn></GlobalTopTenColumn>
-          {/* <Table 
-            title_column_1_table = {"Flags"}
-            img_flag={imgFlag}
-          >
-          </Table> */}
+          
           <TableTracker3></TableTracker3>
         </main>
 
