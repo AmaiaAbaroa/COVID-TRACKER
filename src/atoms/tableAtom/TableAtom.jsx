@@ -4,11 +4,13 @@ import './_tableAtom.css'
 
 const TableAtom = (props) => {
   return (
+    <div>
     <DataTable
       data={props.data}
       columns={props.columns}
       pagination
     />
+    </div>
   );
 };
 
