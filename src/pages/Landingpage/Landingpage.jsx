@@ -1,14 +1,26 @@
 import Navbar from "../../molecules/Navbar/Navbar";
 import GlobalTopTenColumn from "../../organisms/GlobalTopTenColumn/GlobalTopTenColumn";
+import "./_landinpage.css"
+//import TableAtom from "../../atoms/tableAtom/tableAtom";
+import TableTracker3 from "../../molecules/tables/Table";
 
 function Landingpage() {
+  //const imgFlag = "countryInfo.flag";
   return (
     <>
-     <Navbar></Navbar>
-     <GlobalTopTenColumn></GlobalTopTenColumn>
-     
-     
+      <div className="body_style_flex">
+
+        <Navbar></Navbar>
+
+        <main>
+          <GlobalTopTenColumn></GlobalTopTenColumn>
+          
+          <TableTracker3></TableTracker3>
+        </main>
+
+      </div>
     </>
+    
   );
 }
 

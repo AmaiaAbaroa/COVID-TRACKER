@@ -1,7 +1,7 @@
 .container_global_top_ten_column{
     box-shadow: 0 0 5px rgba(208, 78, 78, 0.2);
     /* background-color: pink; */
-    width: 20%;
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +15,6 @@ h3{
     align-self: flex-start;
 }
 .container_top_ten_10title{
-    margin: 5% 7%;
+    margin: 5% 17%;
     align-self: flex-start;
 }
