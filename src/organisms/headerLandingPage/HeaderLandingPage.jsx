@@ -2,7 +2,7 @@ import NavAtom from "../../atoms/navbarLanding/NavbarLanding";
 
 const HeaderLandingPage = () => {
     const logoData = {
-        img: '../../assets/img/logo-white.png', 
+        img: '../../assets/img/logo-white', 
         text1: 'Home', 
         text2: '#', 
         text3: '#', 
