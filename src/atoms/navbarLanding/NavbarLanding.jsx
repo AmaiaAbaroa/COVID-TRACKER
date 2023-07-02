@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 function NavAtom({logo}) {
 
-  const { img, text1, text2, text3, text4, text5, text6, text7, text8, text9, text10, text11, text12, text13, link }  = logo
+  const { img, text1, text2, text3, text4, text5, text6, text7, text8, text9, text10, text11, text12 }  = logo
 
   return (
     <header>
-        <nav className='nav'>
+        <nav>
             <div className='logo'>
                 <a href='#home'><img src={img} className='img_logo' alt='logo' id='logo'/></a>
             </div>
@@ -38,11 +38,6 @@ function NavAtom({logo}) {
                 <li>
                     <a href="#screens">{text12}</a>
                 </li>               
-                <li className="list_download">
-                    <a className="btn" href={link}>
-                    {text13}
-                    </a>
-                </li>
             </ul>
         </nav>
     </header>
@@ -64,8 +59,6 @@ NavAtom.propTypes = {
             text10: PropTypes.string.isRequired,
             text11: PropTypes.string.isRequired,
             text12: PropTypes.string.isRequired,
-            text13: PropTypes.string.isRequired,
-            link: PropTypes.node.isRequired,
         }),       
 };
 
