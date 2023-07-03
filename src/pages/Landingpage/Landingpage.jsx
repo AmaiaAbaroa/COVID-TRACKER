@@ -1,13 +1,14 @@
 import HeaderLandingPage from "../../organisms/headerLandingPage/HeaderLandingPage";
-import './_landingpage.css'
+import "./_landinpage.css"
 
-const Landingpage = () => {
-
-    return(
-      <>
+function Landingpage() {
+ 
+  return (
+    <>
       <HeaderLandingPage></HeaderLandingPage>
-      </>  
-    )
+    </>
+    
+  );
 }
 
 export default Landingpage;
