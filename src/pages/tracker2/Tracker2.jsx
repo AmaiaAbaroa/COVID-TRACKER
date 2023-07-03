@@ -1,5 +1,6 @@
 import UseFetch from "../../services/UseFetch"
 import Cards from "../../atoms/Cards/Cards";
+import MapTracker2 from "../../atoms/mapTracker2/MapTracker2";
 
 
 function Tracker2(){
@@ -30,6 +31,8 @@ function Tracker2(){
             card_resum_number_style={"card_resum_number_red"}
             card_resum_style={"card_resum_lightblue"}>
             </Cards>      
+
+            <MapTracker2></MapTracker2>
         </>
     )
 }
