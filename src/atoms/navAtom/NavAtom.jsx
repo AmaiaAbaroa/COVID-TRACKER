@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import "./_navbarLanding.css"
+import "./_navAtom.css"
 import Button from "../Cards/button/Button";
 
 
