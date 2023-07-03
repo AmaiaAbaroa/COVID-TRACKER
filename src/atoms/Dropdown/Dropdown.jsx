@@ -3,7 +3,7 @@ import UseFetch from "../../services/UseFetch";
 
 
 
-const Dropdown = () => {
+const Dropdown = (props) => {
 
     const url = "https://disease.sh/v3/covid-19/";
     const { data } = UseFetch(url + "countries");
@@ -14,9 +14,10 @@ const Dropdown = () => {
     }
     return (
         <div >
-          <select className="container_drop_down" name="countries">
+          <select className="container_drop_down" name="countries" onChange={props.onChange}>
             {data.map((country) => (
-              <option key={country.id} 
+              <option 
+              key={country.id} 
               value={country.id}
               >
                 {country.country}
