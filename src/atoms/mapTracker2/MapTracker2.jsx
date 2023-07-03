@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { ReactWorldCountriesMap } from 'react-world-countries-map';
 import UseFetch from '../../services/UseFetch';
 
-function App() {
+function MapTracker2() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -41,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default MapTracker2;

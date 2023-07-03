@@ -1,7 +1,7 @@
 import Navbar from "../../molecules/Navbar/Navbar";
 import GlobalTopTenColumn from "../../organisms/GlobalTopTenColumn/GlobalTopTenColumn";
 import DropDownDivsTracker2 from "../../organisms/DropDownDivsTracker2/DropDownDivsTracker2";
-import MapTracker2 from "../../atoms/mapTracker2/MapTracker2";
+import MapTracker2 from "../../atoms/mapTracker2/MapTracker2"
 
 function Tracker2(){
 
@@ -10,6 +10,7 @@ function Tracker2(){
      <Navbar></Navbar>
      <GlobalTopTenColumn></GlobalTopTenColumn>
      <DropDownDivsTracker2></DropDownDivsTracker2>   
+     <MapTracker2></MapTracker2>
         </>
     )
 }
