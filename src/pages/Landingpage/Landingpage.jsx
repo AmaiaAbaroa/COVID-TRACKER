@@ -1,5 +1,5 @@
 import HeaderLandingPage from "../../organisms/headerLandingPage/HeaderLandingPage";
-import "./_landinpage.css"
+import "./_landingpage.css";
 
 function Landingpage() {
  
