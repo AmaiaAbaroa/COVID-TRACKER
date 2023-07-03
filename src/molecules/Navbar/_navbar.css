@@ -1,6 +1,7 @@
 header {
     display: flex;
     flex-direction: column;
+    
 }
 
 .logo_navbar{
@@ -12,10 +13,11 @@ header {
 nav {
     display: flex;
     flex-direction: column;
+   
 }
 
 a{
-    padding: 10px;
+    padding: 7px;
 }
 
 .icon:hover {

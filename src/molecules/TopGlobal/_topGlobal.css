@@ -5,9 +5,13 @@
     width: 15%;
     font-size: small;
 } */
-
+h4{
+    color: #1712A6;
+    font-size: 12px;
+}
 .container_top_global{
-    width: 80%;
+    width: 98%;
+    row-gap: 4px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -16,46 +20,46 @@
 
 .card_resum_red {
     display:flex;
-    justify-content:space-between;
+    justify-content: flex-start
     align-items: center;
-    width:100%;
-    padding: 5% 8%;
+    width:264px;
+    gap:20px;
     background-color: rgba(224, 152, 152, 0.223);
     border-radius: 5px;
-    margin: 1% 0 1% -5%;
+    
 }
 
 .card_resum_blue {
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 20px;
     align-items: center;
-    width:100%;
-    padding: 5% 8%;
+    width:264px;
     background-color: rgba(14, 171, 238, 0.09);
     border-radius: 5px;
-    margin: 1% 0 1% -5%;
+   
 }
 
 .card_resum_green {
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 20px;
     align-items: center;
-    width:100%;
-    padding: 5% 8%;
+    width: 264px;
     background-color: rgba(16, 205, 101, 0.154);
     border-radius: 5px;
-    margin: 1% 0 1% -5%;
+    
 }
 
 .card_resum_orange {
     display:flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 20px;
     align-items: center;
-    width: 100%;
-    padding: 5% 8%;
+    width: 264px;
     background-color: rgba(246, 122, 33, 0.179);
     border-radius: 5px;
-    margin: 1% 0 1% -5%;
+   
 }
 
 h6 {
@@ -95,11 +99,14 @@ h6 {
 .card_resum_number_green {
     font-size:medium;
     font-weight: bold;
-    color: green;
+    color: #AFD971;
 }
 
 .card_resum_number_orange {
     font-size:medium;
     font-weight: bold;
     color: orange;
+}
+.img_empty{
+    width: 0px;
 }

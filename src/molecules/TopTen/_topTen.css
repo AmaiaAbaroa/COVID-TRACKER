@@ -3,6 +3,7 @@
     flex-direction: column;
     width: 15%;
     font-size: small;
+
 }
 
 .div_pais {
@@ -13,7 +14,7 @@
     margin-left: 1rem;
     box-shadow: 0 0 5px rgba(208, 78, 78, 0.2);
     padding: 0 1rem;
-    color:rgb(8, 8, 95);
+    color:#1712A6;
     align-items: center;
 }
 

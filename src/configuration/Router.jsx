@@ -1,8 +1,7 @@
 import {BrowserRouter, Routes, Route,} from "react-router-dom";
-import Landingpage from "../pages/Landingpage/Landingpage";
+import Tracker3 from "../pages/tracker3/Tracker3";
 import Tracker2 from "../pages/tracker2/Tracker2";
-
-import PruebaLandingpageGood from "../pages/landingpageGood/PruebaLandingpageGood";
+import Landingpage from "../pages/landingpage/Landingpage";
 
 
 const RouterItem = () => {
@@ -12,7 +11,7 @@ const RouterItem = () => {
           <Routes>
             <Route path="/" element= {<Landingpage/>}></Route>
             <Route path="/tracker2" element= {<Tracker2/>}></Route>
-            <Route path="/prueba" element= {<PruebaLandingpageGood/>}></Route>
+            <Route path="/tracker3" element= {<Tracker3/>}></Route>
 
           </Routes>
         </BrowserRouter>

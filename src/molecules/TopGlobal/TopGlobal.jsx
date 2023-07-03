@@ -13,6 +13,7 @@ function TopGlobal() {
     <div className="container_top_global">
       <Cards
         key={"cases"}
+        img_country_style={"img_empty"}
         card_resum_title={"Total Case"}
         card_resum_number_value={data.cases}
         card_resum_number_style={"card_resum_number_red"}
@@ -23,6 +24,7 @@ function TopGlobal() {
 
       <Cards
         key={"active"}
+        img_country_style={"img_empty"}
         card_resum_title={"Active Case"}
         card_resum_number_value={data.active}
         card_resum_number_style={"card_resum_number_orange"}
@@ -31,6 +33,7 @@ function TopGlobal() {
 
       <Cards
         key={"recovered"}
+        img_country_style={"img_empty"}
         card_resum_title={"Recovered Case"}
         card_resum_number_value={data.recovered}
         card_resum_number_style={"card_resum_number_green"}
@@ -41,6 +44,7 @@ function TopGlobal() {
 
       <Cards
         key={"deaths"}
+        img_country_style={"img_empty"}
         card_resum_title={"Death Case"}
         card_resum_number_value={data.deaths}
         card_resum_number_style={"card_resum_number_blue"}

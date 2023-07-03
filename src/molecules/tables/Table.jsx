@@ -1,16 +1,12 @@
+
 import TableAtom from "../../atoms/tableAtom/tableAtom";
 import UseFetch from "../../services/UseFetch";
-
-const TableTracker3 =() =>{
-
-const url = "https://disease.sh/v3/covid-19/";
-const { data } = UseFetch(url + "countries");
-console.log(data)
-
-
-const myColumns = [
-    {
-    name: 'Flag',
+const TableTracker3 = () => {
+  const url = "https://disease.sh/v3/covid-19/";
+  const { data } = UseFetch(url + "countries");
+  console.log(data);
+  const myColumns = [
+    {name: 'Flag',
     selector: 'flag',
     cell: (row) => <img src={row.countryInfo.flag} alt="Flag" />,
     },
@@ -50,16 +46,14 @@ const myColumns = [
         name: 'Tested',
         selector: "tests",
     },
-
-];
-
-if (data === null) {
-return <> Loading </>;
-}
-
-return(<TableAtom data={data} columns={myColumns} />);
-
+  ];
+  if (data === null) {
+    return <> Loading </>;
+  }
+  return (
+    <>
+      <TableAtom data={data} columns={myColumns} />
+    </>
+  );
 };
-
-
 export default TableTracker3;

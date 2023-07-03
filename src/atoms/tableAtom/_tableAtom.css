@@ -1,9 +1,13 @@
 .rdt_TableRow:nth-child(odd){
     background-color: #F2F2F2;
-    color: darkblue;
+    color: #1712A6;
 }
 
-/* .rdt_Table{
+img{
+    width: 25px;
+}
+/*
+.rdt_Table{
     position: absolute;
 }
 
@@ -12,9 +16,10 @@
     display: flex;
     flex-direction: column;
     
-} */
+}
 
 
-/* .table tr:nth-child(odd) td{
+.table tr:nth-child(odd) td{
 background-color: lightgray;
-} */
+}
+*/
