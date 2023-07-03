@@ -1,11 +1,10 @@
-body {
+.main_landingpage {
     margin: 0 ;
     font-family: Open Sans;
     background-image: url(../../assets/img/3626307.jpg);
     display: flex;
     
 }
-
 
 
 .img_banner {

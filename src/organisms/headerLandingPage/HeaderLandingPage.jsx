@@ -29,7 +29,7 @@ return(
             </div>
         </header>
 
-        <body>
+        <main className="main_landingpage">
             <div className="container">
                 <div className="text_container banner">
                     <h1>Stay Home, And Prayer For Victim Of Corona virus</h1>
@@ -40,7 +40,7 @@ return(
                     < img className="img_banner" src={coronawomen} alt="logo"/>
                 </div>
             </div>
-        </body>
+        </main>
 
      
     

@@ -10,7 +10,7 @@ header {
    
 }
 
-nav {
+.nav_tracker {
     display: flex;
     flex-direction: column;
    

@@ -9,7 +9,7 @@ function NavAtom({logo}) {
 
   return (
     
-        <nav>
+        <nav className='nav_landingpage'>
             <div className='logo'>
                 <a href='#home'><img src={img} className='img_logo' alt='logo' id='logo'/></a>
             </div>
@@ -43,7 +43,7 @@ function NavAtom({logo}) {
                     <a href="#screens">{text12}</a>
                 </li>               
             </ul>
-            <Button button_content="Tracker"></Button>
+            <a href="Tracker3" ><Button button_content="Tracker"></Button></a>
         </nav>
    
   );

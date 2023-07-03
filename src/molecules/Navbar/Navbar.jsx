@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
         <header>
             <a href="/">< img src={logo} className="logo_navbar" alt="logo"/></a>
-            <nav>
+            <nav className="nav_tracker">
                 <a href="/tracker2"><svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-chart-pie-2" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#212875" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M12 3v9h9" />
