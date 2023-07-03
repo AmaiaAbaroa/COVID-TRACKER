@@ -1,0 +1,25 @@
+.rdt_TableRow:nth-child(odd){
+    background-color: #F2F2F2;
+    color: #1712A6;
+}
+
+img{
+    width: 25px;
+}
+/*
+.rdt_Table{
+    position: absolute;
+}
+
+.rdt_Pagination{
+    margin-top: 110rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.table tr:nth-child(odd) td{
+background-color: lightgray;
+}
+*/

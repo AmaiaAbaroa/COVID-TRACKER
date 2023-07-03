@@ -1,0 +1,21 @@
+.body_style_flex{
+    display: flex;
+    flex-direction: row;
+
+}
+
+main{
+    display: flex;
+    
+}
+
+.section .section_table{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.table_title{
+    color: #1712A6;
+    margin-top: 15px;
+}

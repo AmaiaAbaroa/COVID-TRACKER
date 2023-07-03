@@ -1,0 +1,14 @@
+.divButton {
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    background-color: darkblue;
+    color: white;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    border-color: darkblue;
+    font-size: medium;
+}

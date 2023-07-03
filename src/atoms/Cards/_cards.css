@@ -1,0 +1,22 @@
+.card_resum {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:100%;
+    background-color: rgb(179, 176, 176);
+    border-radius: 5px;
+    color:rgb(2, 2, 37)
+}
+
+
+.card_resum_chip {
+    font-size: small;
+    color: gray;
+    background-color: white;
+    padding: 2%;
+    height: 30%;
+    width: auto;
+    border-radius: 2px;
+    align-self: center;
+}
+
