@@ -1,4 +1,4 @@
-import NavAtom from "../../atoms/navbarLanding/NavbarLanding";
+import NavAtom from "../../atoms/navAtom/NavAtom";
 import Button from "../../atoms/Cards/button/Button";
 import './_headerLandingPage.css'
 import logo from "../../assets/img/logo-white.png";
