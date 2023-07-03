@@ -1,0 +1,31 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: medium;
+    width: 90%;
+    position: fixed;
+    justify-content: space-around;
+    margin-top: 15px;
+        
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#dropdown {
+    width: auto;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    font-size: medium;
+}

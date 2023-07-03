@@ -5,7 +5,7 @@ const PruebaLandingpageGood = () => {
 
     return(
       <>
-      <HeaderLandingPage></HeaderLandingPage>
+        <HeaderLandingPage></HeaderLandingPage>
       </>  
     )
 }

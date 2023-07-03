@@ -1,10 +1,14 @@
 import PropTypes from 'prop-types';
+import "./_navbarLanding.css"
+import Button from "../Cards/button/Button";
+
+
 function NavAtom({logo}) {
 
   const { img, text1, text2, text3, text4, text5, text6, text7, text8, text9, text10, text11, text12 }  = logo
 
   return (
-    <header>
+    
         <nav>
             <div className='logo'>
                 <a href='#home'><img src={img} className='img_logo' alt='logo' id='logo'/></a>
@@ -39,8 +43,9 @@ function NavAtom({logo}) {
                     <a href="#screens">{text12}</a>
                 </li>               
             </ul>
+            <Button button_content="Tracker"></Button>
         </nav>
-    </header>
+   
   );
 }
 
